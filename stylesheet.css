@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.main {
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    height: 25rem;
+    border-radius: 1rem;
+}
+
+.top {
+    background-image: url("/bg-pattern-card.svg");
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid hsl(0, 0%, 90%);
+}
+
+h3 {
+    color: hsl(229, 23%, 23%;
+}
